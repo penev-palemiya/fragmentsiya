@@ -3,7 +3,7 @@ interface IFragmentsiyaConfig {
     processor?: (spanElement: HTMLSpanElement, charIndex: number, charCount: number) => void;
     randomize?: boolean;
 }
-export declare class Fragmentsiya {
+declare class Fragmentsiya {
     private static instance;
     private constructor();
     static getInstance(): Fragmentsiya;
@@ -13,4 +13,4 @@ export declare class Fragmentsiya {
     private createSpaceSpan;
     private createRandomIndices;
 }
-export {};
+export default Fragmentsiya;

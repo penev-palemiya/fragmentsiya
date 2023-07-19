@@ -4,7 +4,7 @@ interface IFragmentsiyaConfig {
   randomize?: boolean;
 }
 
-export class Fragmentsiya {
+class Fragmentsiya {
   private static instance: Fragmentsiya;
 
   private constructor() { }
@@ -84,3 +84,5 @@ export class Fragmentsiya {
     return indices;
   }
 }
+
+export default Fragmentsiya
